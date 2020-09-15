@@ -32,6 +32,11 @@ h3, h4{
 
 a{
     text-decoration: none;
+    color:#ffffff;
+}
+
+a:hover{
+    text-decoration: underline;
 }
 
 /*---------------------- Elements ----------------------*/
@@ -83,6 +88,107 @@ a{
 
 /*---------------------- Components ----------------------*/
 
+header{
+    background: #000;
+}
+
+header h1{
+    margin: 0;
+    color:#fff;
+    padding-left: 100px;
+}
+
+.interet{
+    background: url("../images/bg-interet.jpg") no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+}
+
+.interet .conteneur{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 1140px;
+    margin-bottom: 40px;
+}
+
+.cartes{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.carte{
+    background: #FFFFFF;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+
+    max-width: 352px;
+    margin: 20px 20px 0 0;
+    padding: 20px 0;
+
+    text-align: center;
+
+}
+
+.carte img{
+    width: 151px;
+    height: 151px;
+}
+
+.interet h3{
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.interet p{
+    text-align: center;
+}
+
+.cartes h4{
+    font-size: 1.125rem;
+    margin:10px 0 0 0;
+}
+
+
+.citation{
+    background: url("../images/bg-citation.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 404px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color:#fff;
+}
+
+.citation .conteneur{
+    max-width: 1140px;
+}
+
+.citation h3{
+    font-size: 2.5rem;
+}
+
+.citation p{
+    margin: 0;
+}
+
+footer{
+    background: #000000;
+}
+
+footer p{
+    color:#fff;
+    text-align: center;
+    margin: 0;
+    padding: 50px 0;
+}
 
 
 
